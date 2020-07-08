@@ -25,11 +25,11 @@ def initServer():
     #Configuration variable to initialize pyrebase
     #Service account is being used as this code is only run by the server, which has admin privileges
     config = {
-      "apiKey": "AIzaSyCKD9xqSm1Xbf-QIa6BiDaVqUec0X1fpfk",
-      "authDomain": "logiswitch2020.firebaseapp.com",
-      "databaseURL": "https://logiswitch2020.firebaseio.com",
-      "storageBucket": "logiswitch2020.appspot.com",
-      "serviceAccount": "logiswitch2020-firebase-adminsdk-ujnzz-a2c5fab218.json"
+      "apiKey": "AIzaSyAOEVrJnc1hL2vQGyboxvGbYlh2Ij39xTo",
+      "authDomain": "logiswitch-2020.firebaseapp.com",
+      "databaseURL": "https://logiswitch-2020.firebaseio.com",
+      "storageBucket": "logiswitch-2020.appspot.com",
+      "serviceAccount": "logiswitch-2020-firebase-adminsdk-k8xry-b0c8f8675f.json"
     }
     #Firebase is an object of pyrebase that is connected to the project in config file
     firebase = pyrebase.initialize_app(config)
